@@ -79,7 +79,8 @@ function handleTimerTick(timerType) {
     resetTimer();
 
     if (timerType === workClass) {
-      startBreakTimer();
+      currentTimer = 'break';
+      handleStart();
     }
   }
 }
