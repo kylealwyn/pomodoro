@@ -1,0 +1,80 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.title h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.title p {
+  color: #666;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.row {
+  display: flex;
+}
+.row [class^='col-'] {
+  flex: 1;
+}
+.row [class^='col-'] span {
+  max-width: 25px;
+  margin: 0 1rem;
+}
+
+.controls {
+  text-align: center;
+}
+.controls h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+.controls button {
+  background: none;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#clock {
+  margin: 2rem 0;
+  background: white;
+  text-align: center;
+  font-size: 120px;
+}
+
+.work {
+  color: #e74c3c;
+}
+
+.break {
+  color: green;
+}
+
+.inactive {
+  color: #aaaaaa;
+}
+
+.disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
